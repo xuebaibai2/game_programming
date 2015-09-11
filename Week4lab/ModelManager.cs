@@ -15,7 +15,8 @@ namespace Ass1
         
         List<BasicModel> modelsObstacle = new List<BasicModel>();
         List<BasicModel> modelsObstacleFirm = new List<BasicModel>();
-        
+        List<Cube> modelsObstacleBoundary = new List<Cube>();
+
         public List<BasicModel> npcModels = new List<BasicModel>();
         float shotMinZ = 5000;
         float shotMinX = 5000;
@@ -35,6 +36,12 @@ namespace Ass1
         int zSpawn;
         Random rndEnemyAddShot;
 
+        //steven 9-11
+        const float reboundDistance = 10f;
+        const float diff = 30f;
+        const float modelDiff = 60f;
+        Tank playerTank;
+
         public ModelManager(Game game)
             : base(game)
         {
@@ -51,7 +58,7 @@ namespace Ass1
 
         protected override void LoadContent()
         {
-            Tank playerTank = new Tank(
+            playerTank = new Tank(
                 Game.Content.Load<Model>(@"Tank/tank"),
                 ((Game1)Game).GraphicsDevice,
                 ((Game1)Game).camera);
@@ -66,9 +73,14 @@ namespace Ass1
             fleeTank.AddTarget(playerTank);
             npcModels.Add(fleeTank);
 
-            npcModels.Add(new Cube(
+            Cube RockModel = new Cube(
                 Game.Content.Load<Model>(@"Models/stone"),
-                new Vector3(0, 0, 500)));
+                new Vector3(0, 0, 0));
+            npcModels.Add(RockModel);
+
+            //steven 9-11
+            modelsObstacleFirm.Add(RockModel);
+            putBoundary();
 
             models.Add(new Ground(
                 Game.Content.Load<Model>(@"Ground/Ground")));
@@ -80,24 +92,40 @@ namespace Ass1
             //    ((Game1)Game).camera));
             models.Add(playerTank);
 
-            //npcModels.Add(enemyTank);
-            
             base.LoadContent();
+        }
+
+        //steven 9-11
+        public void putBoundary()
+        {
+            int b = (int)playerTank.getBoundary();
+            for (int x = -1 * b; x <= b; x += 30)
+            {
+                modelsObstacleBoundary.Add(new Cube(
+                    Game.Content.Load<Model>(@"Models/stone"),
+                    new Vector3(x, 0, b)));
+
+                modelsObstacleBoundary.Add(new Cube(
+                    Game.Content.Load<Model>(@"Models/stone"),
+                    new Vector3(x, 0, -b)));
+
+                modelsObstacleBoundary.Add(new Cube(
+                    Game.Content.Load<Model>(@"Models/stone"),
+                    new Vector3(b, 0, x)));
+
+                modelsObstacleBoundary.Add(new Cube(
+                    Game.Content.Load<Model>(@"Models/stone"),
+                    new Vector3(-b, 0, x)));
+            }
+
         }
 
         public override void Update(GameTime gameTime)
         {
             foreach (BasicModel model in models)
             {
-                //if (!Collide())
-                //{
-                //    Console.WriteLine("no collision~~~~");
-                //}
-                //else
-                //{
-                //    Console.WriteLine("collision!!!");
-                //    stopPlayer();
-                //}
+                //steven
+                Collide();
 
                 model.Update(gameTime);
             }
@@ -141,6 +169,10 @@ namespace Ass1
                 model.Draw(((Game1)Game).device, ((Game1)Game).camera);
             }
             foreach (BasicModel model in modelsObstacleFirm)
+            {
+                model.Draw(((Game1)Game).device, ((Game1)Game).camera);
+            }
+            foreach (BasicModel model in modelsObstacleBoundary)
             {
                 model.Draw(((Game1)Game).device, ((Game1)Game).camera);
             }
@@ -281,9 +313,12 @@ namespace Ass1
             }
         }
         
-        protected bool Collide()
+
+        //9-11 steven
+        //steven
+        protected void Collide()
         {
-            Vector3 tankPosition = tankModel.GetTankPosition();
+            Vector3 tankPosition = playerTank.GetTankPosition();
 
             for (int i = modelsObstacle.Count - 1; i >= 0; i--)
             {
@@ -292,16 +327,12 @@ namespace Ass1
                     (int)tankPosition.Z, 100, 100);
                 Rectangle obstacleRect = new Rectangle((int)obstaclePosition.X,
                     (int)obstaclePosition.Z, 100, 100);
-                Console.WriteLine((tankPosition.X - obstaclePosition.Z) + "----------");
-                Console.WriteLine((obstaclePosition.X - obstaclePosition.Z) + "----------");
+                //Console.WriteLine((tankPosition.X - obstaclePosition.Z) + "----------");
+                //Console.WriteLine((obstaclePosition.X - obstaclePosition.Z) + "----------");
                 if (tankRect.Intersects(obstacleRect))
                 {
                     modelsObstacle.Remove(modelsObstacle[i]);
                 }
-                //if (modelsObstacle[i].CollidesWith(tankModel.model, tankModel.Getworld()))
-                //{
-                //    modelsObstacle.Remove(modelsObstacle[i]);
-                //}
             }
 
             for (int i = modelsObstacleFirm.Count - 1; i >= 0; i--)
@@ -313,14 +344,84 @@ namespace Ass1
                     (int)obstaclePosition.Z, 100, 100);
                 //Console.WriteLine((tankModel.GetScale().Up.Z - tankModel.GetScale().Down.Z) + "Y--------Y");
                 if (tankRect.Intersects(obstacleRect))
-                    return true;
+                    roundPlayer(obstaclePosition);
             }
-            return false;
+
+            for (int i = modelsObstacleBoundary.Count - 1; i >= 0; i--)
+            {
+                Vector3 obstaclePosition = modelsObstacleBoundary[i].GetTankPosition();
+                Rectangle tankRect = new Rectangle((int)tankPosition.X,
+                    (int)tankPosition.Z, 100, 100);
+                Rectangle obstacleRect = new Rectangle((int)obstaclePosition.X,
+                    (int)obstaclePosition.Z, 100, 100);
+                //Console.WriteLine((tankPosition.X - obstaclePosition.Z) + "----------");
+                //Console.WriteLine((obstaclePosition.X - obstaclePosition.Z) + "----ooooo----------");
+                if (tankRect.Intersects(obstacleRect))
+                    Console.WriteLine("1111111111111111");
+                    stopPlayer();
+            }
         }
+
+        //steven
+        public void roundPlayer(Vector3 position)
+        {
+            Vector3 curPos = playerTank.GetTankPosition();
+            playerTank.setModelSpeed(0f);
+            float tmpReboundDistancex = 0;
+            float tmpReboundDistancey = 0;
+            if (curPos.X.CompareTo(position.X - modelDiff) == 0)
+            {
+                tmpReboundDistancex = -reboundDistance;
+            }
+            else if (curPos.X.CompareTo(position.X + modelDiff) == 0)
+            {
+                tmpReboundDistancex = reboundDistance;
+            }
+
+            if (curPos.Z.CompareTo(position.Z - modelDiff) > 0)
+            {
+                tmpReboundDistancey = -reboundDistance;
+            }
+            else if (curPos.Z.CompareTo(position.Z + modelDiff) < 0)
+            {
+                tmpReboundDistancey = reboundDistance;
+            }
+
+            playerTank.rebounded(tmpReboundDistancex, tmpReboundDistancey);
+        }
+
         public void stopPlayer()
         {
             //tankModel.WheelRotationValue = 0f;
-            tankModel.setModelSpeed(0f);
+            //playerTank.setModelSpeed(0f);
+            float b = playerTank.getBoundary();
+            float tmpReboundDistancex = 0;
+            float tmpReboundDistancey = 0;
+            Vector3 curPos = playerTank.GetTankPosition();
+            if (curPos.X.CompareTo(b - diff) > 0)
+            {
+                tmpReboundDistancex = reboundDistance;
+            }
+            else if (curPos.X.CompareTo(-b + diff) < 0)
+            {
+                tmpReboundDistancex = -reboundDistance;
+            }
+
+            if (curPos.Z.CompareTo(b - diff) > 0)
+            {
+                tmpReboundDistancey = reboundDistance;
+            }
+            else if (curPos.Z.CompareTo(-b + diff) < 0)
+            {
+                tmpReboundDistancey = -reboundDistance;
+            }
+
+            playerTank.rebounded(tmpReboundDistancex, tmpReboundDistancey);
         }
+        //public void stopPlayer()
+        //{
+        //    //tankModel.WheelRotationValue = 0f;
+        //    tankModel.setModelSpeed(0f);
+        //}
     }
 }

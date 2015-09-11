@@ -25,5 +25,9 @@ namespace Ass1
         {
             return Matrix.CreateScale(1) * translation;
         }
+        public override Vector3 GetTankPosition()
+        {
+            return translation.Translation;
+        }
     }
 }

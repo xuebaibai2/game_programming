@@ -37,7 +37,6 @@ namespace Ass1
         private double orintationAngle;
         private double tankAngle = 0;
         private double turretAngle = MathHelper.PiOver2;
-        private float boundary = 1000f;
 
         //update 9/3 15:21
         private Vector3 currentCameraDirection;
@@ -65,6 +64,10 @@ namespace Ass1
         Matrix tankTransform;
         public float SteerRotationValue;
 
+        //steven 9-11
+        private const float boundary = 1000f;
+        private float positiondiffx = 0;
+        private float positiondiffz = 0;
         Vector3? pickPositionCur;
 
 
@@ -73,6 +76,7 @@ namespace Ass1
             mousePick = new MousePick(device, camera);
             tankCamera = camera;
             position = Vector3.Zero;
+            pickPositionCur = Vector3.Zero;
             tankDirection = new Vector3(0, 0, 1);
             tankDirection.Normalize();
 
@@ -98,10 +102,8 @@ namespace Ass1
             leftBackWheelTransform = leftBackWheelBone.Transform;
             rightBackWheelTransform = rightBackWheelBone.Transform;
             leftFrontWheelTransform = leftFrontWheelBone.Transform;
-            
             hatchTransform = hatchBone.Transform;
             tankTransform = tankBone.Transform;
-
 
             prevMouseState = Mouse.GetState();
         }
@@ -293,7 +295,20 @@ namespace Ass1
         public override void setModelSpeed(float s)
         {
             //base.setModelSpeed(s);
-            maxMoveSpeed = s;
+            currentVelocity.X = (int)s;
+            currentVelocity.Y = (int)s;
+            currentVelocity.Z = (int)s;
+        }
+
+        public void rebounded(float x, float z)
+        {
+            positiondiffx = x;
+            positiondiffz = z;
+        }
+
+        public float getBoundary()
+        {
+            return boundary;
         }
 
     }
