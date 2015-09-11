@@ -247,7 +247,7 @@ namespace Ass1
             else
             {
                 // no matter currentMoveSpeed is positive or negative
-                // -currentMoveSpeed/Math.Abs(currentMoveSpeed) return opposite value of it
+                // -currentMoveSpeed/Math.Abs(currentMoveSpeed) return opposite 1 of it
                 currentMoveSpeed -= currentMoveSpeed/Math.Abs(currentMoveSpeed) * tankAcceleration / 2;
                 currentVelocity = tankDirection * currentMoveSpeed;
             }

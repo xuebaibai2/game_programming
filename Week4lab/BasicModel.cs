@@ -26,6 +26,7 @@ namespace Ass1
         protected Matrix world = Matrix.Identity;
         protected Matrix translation = Matrix.Identity;
 
+        public int npcTankID { get; set; }
         public BasicModel (Model model1)
         {
             this.model = model1;
@@ -74,6 +75,7 @@ namespace Ass1
             return Vector3.Zero;
         }
 
+        //9-11
         public bool CollidesWith(Model otherModel, Matrix otherWorld)
         {
             // Loop through each ModelMesh in both objects and compare    

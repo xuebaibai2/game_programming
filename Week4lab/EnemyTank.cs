@@ -32,6 +32,7 @@ namespace Ass1
         private float minStopSpeed = 0.1f;
 
         float chaseMinDistance = 300;
+        float chaseMaxDistance = 700;
         float boundary = 1000f;
 
         private double rotationSpeed = MathHelper.PiOver4/200;
@@ -42,11 +43,13 @@ namespace Ass1
         private float scaleRatio = 0.05f;
 
         private bool isMoving;
-
+        //9-11
+        private bool isPatrolling;
         private Tank targetTank;
 
-        public EnemyTank(Model model, GraphicsDevice device, Camera camera, Vector3 position) : base(model)
+        public EnemyTank(Model model, GraphicsDevice device, Camera camera, Vector3 position,int tankID) : base(model)
         {
+            npcTankID = tankID;
             mousePick = new MousePick(device, camera);
             //this.position = new Vector3(500, 0, 200);         //enemy tank's spawn position
             this.position = position;
@@ -56,6 +59,9 @@ namespace Ass1
             leftBackWheelBone = model.Bones["l_back_wheel_geo"];
             rightBackWheelBone = model.Bones["r_back_wheel_geo"];
 
+            //9-11
+            RandomPatrolPoint();
+
             translation = Matrix.CreateTranslation(position);
         }
 
@@ -63,11 +69,39 @@ namespace Ass1
         {
             this.targetTank = playerTank;
         }
+
+        public void RandomPatrolPoint()
+        {
+            Random ran = new Random();
+            int x = ran.Next(-1000, 1000);
+            int z = ran.Next(-1000, 1000);
+            targetPosition = new Vector3(x, 0, z);
+        }
+
+        public void Patrol()
+        {
+
+        }
         public override void Update(GameTime gameTime)
         {
             int elapsedFrameTime = gameTime.ElapsedGameTime.Milliseconds;
             double turnedAngle = rotationSpeed * elapsedFrameTime;
-            targetPosition = targetTank.position;
+
+            //9-11
+            float distance = (targetTank.position - position).Length();
+            if (distance > chaseMaxDistance)
+            {
+                isPatrolling = true;
+                
+            }
+            else
+            {
+                isPatrolling = false;
+                targetPosition = targetTank.position;
+            }
+
+            //targetPosition = targetTank.position;
+
             orintation = targetPosition - position;
             desiredVelocity = Vector3.Normalize(orintation) * maxSpeed;
             orintationAngle = Math.Atan2(orintation.X, orintation.Z);
@@ -78,12 +112,11 @@ namespace Ass1
             currentVelocity *= (float)currentSpeed;
 
             //the enemy tank will chase player and keep 100 distance
-            float distance = (targetPosition - position).Length();
-            if (distance > chaseMinDistance)
+            
+            if ((targetPosition - position).Length() > chaseMinDistance)
             {
                 isMoving = true;
 
-                //update 9/3
                 //tank will accelerate from 0 to max speed
                 if (currentSpeed < maxSpeed)
                 {
@@ -93,7 +126,6 @@ namespace Ass1
                     currentSpeed = maxSpeed;
 
                 //steering behavior of the enemy tank
-                //update 9/5
                 Steering(elapsedFrameTime);
                 RotateTank(turnedAngle);
             }
@@ -122,6 +154,7 @@ namespace Ass1
 
             base.Update(gameTime);
         }
+
 
         private void LimitInBoundary()
         {

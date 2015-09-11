@@ -64,14 +64,9 @@ namespace Ass1
                 ((Game1)Game).camera);
 
 
-            FleeTank fleeTank = new FleeTank(
-                Game.Content.Load<Model>(@"Tank/tank"),
-                ((Game1)Game).GraphicsDevice,
-                ((Game1)Game).camera);
-            AddEnemyTanks(StaticValue.ENEMY_TANK_AMOUNT, playerTank); // add enemy tanks
-            //enemyTank.AddTarget(playerTank);
-            fleeTank.AddTarget(playerTank);
-            npcModels.Add(fleeTank);
+           
+            AddNPCTank(StaticValue.TOTAL_NPC_TANK, playerTank); // add enemy tanks
+            
 
             Cube RockModel = new Cube(
                 Game.Content.Load<Model>(@"Models/stone"),
@@ -294,25 +289,37 @@ namespace Ass1
             else
                 enemyShotCountdown -= gameTime.ElapsedGameTime.Milliseconds;
         }
-        protected void AddEnemyTanks(int number, Tank playerTank)
+        protected void AddNPCTank(int totalTankAmount, Tank playerTank)
         {
-            for (int i = 0; i < number; i++)
+            for (int i = 0; i < totalTankAmount; i++)
             {
                 xSpawn = rndPosition.Next(-1000, 1000);
                 zSpawn = rndPosition.Next(-1000, 1000);
-
-                EnemyTank enemyTank = new EnemyTank(
+                if (i <= StaticValue.ENEMY_TANK_AMOUNT - 1)
+                {
+                    EnemyTank enemyTank = new EnemyTank(
                     Game.Content.Load<Model>(@"Tank/tank"),
                     ((Game1)Game).GraphicsDevice,
                     ((Game1)Game).camera,
-                    new Vector3(xSpawn, 0, zSpawn));
-
-                enemyTank.AddTarget(playerTank);
-
-                npcModels.Add(enemyTank);
+                    new Vector3(xSpawn, 0, zSpawn),
+                    i);
+                    enemyTank.AddTarget(playerTank);
+                    npcModels.Add(enemyTank);
+                }
+                else
+                {
+                    FleeTank fleeTank = new FleeTank(
+                Game.Content.Load<Model>(@"Tank/tank"),
+                ((Game1)Game).GraphicsDevice,
+                ((Game1)Game).camera,
+                new Vector3(xSpawn, 0, zSpawn),
+                i);
+                    fleeTank.AddTarget(playerTank);
+                    npcModels.Add(fleeTank);
+                }
             }
         }
-        
+
 
         //9-11 steven
         //steven

@@ -45,10 +45,12 @@ namespace Ass1
 
         private Tank targetTank;
 
-        public FleeTank(Model model, GraphicsDevice device, Camera camera) : base(model)
+        public FleeTank(Model model, GraphicsDevice device, Camera camera, Vector3 position, int tankID) : base(model)
         {
             mousePick = new MousePick(device, camera);
-            position = new Vector3(100, 0, -100);         //enemy tank's spawn position
+            npcTankID = tankID;
+            //position = new Vector3(100, 0, -100);         //enemy tank's spawn position
+            this.position = position;
             currentVelocity = Vector3.Normalize(new Vector3(0, 0, 1));  //enemy tank is facing vector3(0,0,1) when it spawn, this is initial velocity
             turretBone = model.Bones["turret_geo"];
             backWheelBone = model.Bones["r_back_wheel_geo"];

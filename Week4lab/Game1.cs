@@ -13,13 +13,16 @@ namespace Ass1
         public const float BULLET_SPEED = 1f;
         //9-11
         public const int ENEMY_TANK_AMOUNT = 5;
+        public const int FLEE_TANK_AMOUNT = 3;
+        public const int TOTAL_NPC_TANK = ENEMY_TANK_AMOUNT + FLEE_TANK_AMOUNT;
+
     }
 
     public class Game1 : Game
     {
         //public property
-       
-            
+
+
         public GraphicsDevice device { get; protected set; }
 
         public GraphicsDeviceManager graphics;
@@ -101,7 +104,7 @@ namespace Ass1
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            
+
 
             base.Update(gameTime);
         }
