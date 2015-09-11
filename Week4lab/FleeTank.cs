@@ -32,12 +32,14 @@ namespace Ass1
         private int mass = 10;
 
         private float fleeDistance = 800;
+        private float boundary = 1000f;
 
         private double rotationSpeed = MathHelper.PiOver4 / 200;
         private double orintationAngle;
         private double tankAngle = 0;//MathHelper.PiOver2;
         private double turretAngle = MathHelper.PiOver2;
         private double acceleration = 0.005;
+        private float scaleRatio = 0.05f;
 
         private bool isMoving;
 
@@ -121,6 +123,19 @@ namespace Ass1
             base.Update(gameTime);
         }
 
+        private void LimitInBoundary()
+        {
+            float minBoundary = boundary - 500 * scaleRatio;
+            if (position.X > minBoundary)
+                position.X = minBoundary;
+            if (position.X < -minBoundary)
+                position.X = -minBoundary;
+            if (position.Z > minBoundary)
+                position.Z = minBoundary;
+            if (position.Z < -minBoundary)
+                position.Z = -minBoundary;
+        }
+
         //update 9/5
         private void RotateTank(double turnedAngle)
         {
@@ -174,6 +189,7 @@ namespace Ass1
             
             //update 9/5
             position += currentVelocity;
+            LimitInBoundary();
             translation = Matrix.CreateTranslation(position);
         }
         public override void Draw(GraphicsDevice device, Camera camera)
@@ -183,7 +199,7 @@ namespace Ass1
 
         public override Matrix Getworld()
         {
-            return Matrix.CreateScale(0.05f) * rotation; //* translation;
+            return Matrix.CreateScale(scaleRatio) * rotation; //* translation;
         }
         public override Vector3 GetTankPosition()
         {

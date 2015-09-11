@@ -17,7 +17,6 @@ namespace Ass1
         private ModelBone turretBone;
         private ModelBone backWheelBone;
 
-        //update 9/5
         private ModelBone leftBackWheelBone;
         private ModelBone rightBackWheelBone;
 
@@ -26,21 +25,21 @@ namespace Ass1
         private Vector3 desiredVelocity;
         private Vector3 steeringForce;
 
-
         private double currentSpeed = 0;
         private float maxSpeed = 2f;
         private int mass = 10;
 
-        //update 9/4
         private float minStopSpeed = 0.1f;
 
-        float chaseMinDistance = 100;
+        float chaseMinDistance = 300;
+        float boundary = 1000f;
 
         private double rotationSpeed = MathHelper.PiOver4/200;
         private double orintationAngle;
         private double tankAngle = MathHelper.PiOver2;
         private double turretAngle = MathHelper.PiOver2;
         private double acceleration = 0.002;
+        private float scaleRatio = 0.05f;
 
         private bool isMoving;
 
@@ -54,7 +53,6 @@ namespace Ass1
             currentVelocity = Vector3.Normalize(new Vector3(0, 0, 1));  //enemy tank is facing vector3(0,0,1) when it spawn, this is initial velocity
             turretBone = model.Bones["turret_geo"];
 
-            //update 9/5
             leftBackWheelBone = model.Bones["l_back_wheel_geo"];
             rightBackWheelBone = model.Bones["r_back_wheel_geo"];
 
@@ -74,7 +72,6 @@ namespace Ass1
             desiredVelocity = Vector3.Normalize(orintation) * maxSpeed;
             orintationAngle = Math.Atan2(orintation.X, orintation.Z);
 
-            //update 9/4
             if (currentVelocity.Length() > 1)
                 currentVelocity.Normalize();
 
@@ -124,6 +121,19 @@ namespace Ass1
             //rightBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
 
             base.Update(gameTime);
+        }
+
+        private void LimitInBoundary()
+        {
+            float minBoundary = boundary - 500 * scaleRatio;
+            if (position.X > minBoundary)
+                position.X = minBoundary;
+            if (position.X < -minBoundary)
+                position.X = -minBoundary;
+            if (position.Z > minBoundary)
+                position.Z = minBoundary;
+            if (position.Z < -minBoundary)
+                position.Z = -minBoundary;
         }
 
         //update 9/5
@@ -180,6 +190,7 @@ namespace Ass1
                 
             }
             position += currentVelocity;
+            LimitInBoundary();
             translation = Matrix.CreateTranslation(position);
         }
         public override void Draw(GraphicsDevice device, Camera camera)
@@ -189,7 +200,7 @@ namespace Ass1
 
         public override Matrix Getworld()
         {
-            return Matrix.CreateScale(0.05f) * rotation;
+            return Matrix.CreateScale(scaleRatio) * rotation;
         }
         
         public override Vector3 GetTankPosition()

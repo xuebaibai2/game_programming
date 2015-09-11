@@ -357,7 +357,6 @@ namespace Ass1
                 //Console.WriteLine((tankPosition.X - obstaclePosition.Z) + "----------");
                 //Console.WriteLine((obstaclePosition.X - obstaclePosition.Z) + "----ooooo----------");
                 if (tankRect.Intersects(obstacleRect))
-                    Console.WriteLine("1111111111111111");
                     stopPlayer();
             }
         }

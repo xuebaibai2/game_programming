@@ -42,8 +42,9 @@ namespace Ass1
         private Vector3 currentCameraDirection;
         private int cameraDistance = 200;
         private float currentPitch = 0;
-        private float maxPitch = MathHelper.PiOver4;
+        private float maxPitch = MathHelper.PiOver4/2;
         private float pitchSpeed = MathHelper.PiOver4 / 500;
+        private float scaleRatio = 0.05f;
 
         //update 9/4 00:21
         private ModelBone cannonBone;
@@ -170,6 +171,7 @@ namespace Ass1
 
             double turnedAngle = rotationSpeed * gameTime.ElapsedGameTime.Milliseconds;
 
+            LimitInBoundary();
             translation = Matrix.CreateTranslation(position);
             prevMouseState = Mouse.GetState();
 
@@ -271,6 +273,19 @@ namespace Ass1
             currentCameraDirection = newCameraDirection;
         }
 
+        private void LimitInBoundary()
+        {
+            float minBoundary = boundary - 500 * scaleRatio;
+            if (position.X > minBoundary)
+                position.X = minBoundary;
+            if (position.X < -minBoundary)
+                position.X = -minBoundary;
+            if (position.Z > minBoundary)
+                position.Z = minBoundary;
+            if (position.Z < -minBoundary)
+                position.Z = -minBoundary;
+        }
+
         public override void Draw(GraphicsDevice device, Camera camera)
         {
             base.Draw(device, camera);
@@ -278,7 +293,7 @@ namespace Ass1
 
         public override Matrix Getworld()
         {
-            return Matrix.CreateScale(0.05f) * rotation;
+            return Matrix.CreateScale(scaleRatio) * rotation;
         }
 
         public override Vector3 GetTankDirection()
