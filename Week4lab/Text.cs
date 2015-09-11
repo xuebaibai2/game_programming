@@ -25,6 +25,9 @@ namespace Ass1
         //9-4 updated code
         private string game_over;
         private Vector2 game_over_pos;
+        private Texture2D gameOverScreen;
+        private bool isGameOver = false;
+        private double quitTime = 4;
 
         enum GameState
         {
@@ -71,6 +74,10 @@ namespace Ass1
             ((Game1)Game).spriteBatch.DrawString(font, top_left_text, top_left_text_pos, Color.Black);
             ((Game1)Game).spriteBatch.DrawString(font, top_middle_text, top_middle_text_pos, Color.Yellow);
             ((Game1)Game).spriteBatch.DrawString(font, top_right_text, top_right_text_pos, Color.Red);
+            if (isGameOver)
+            {
+                ((Game1)Game).spriteBatch.Draw(gameOverScreen, new Rectangle(0, 0, 1280, 720), Color.White);
+            }
             ((Game1)Game).spriteBatch.End();
         }
         protected override void LoadContent()
@@ -79,6 +86,8 @@ namespace Ass1
 
             btnRePlay = new Button(Game.Content.Load<Texture2D>(@"Image/menu_button"), ((Game1)Game).graphics.GraphicsDevice);
             btnRePlay.setPosition(new Vector2(350, 300));
+            gameOverScreen = Game.Content.Load<Texture2D>(@"Image/gameover");
+
             base.LoadContent();
         }
         public override void Update(GameTime gameTime)
@@ -90,11 +99,10 @@ namespace Ass1
             //Restart game
             if (this.Life < 0)
             {
-                //using (var game = new Game1())
-                //{
-                //    this.Game.Exit();
-                //    game.Run();
-                //}
+                isGameOver = true;
+                quitTime -= gameTime.ElapsedGameTime.TotalSeconds;
+                if (quitTime < 1)
+                    ((Game1)Game).Exit();
             }
             base.Update(gameTime);
         }
@@ -102,7 +110,7 @@ namespace Ass1
         {
             this.Score += score;
         }
-        public void updateTime(int time, bool addTime)//吃有毒的时间 时间减少
+        public void updateTime(int time, bool addTime)
         {
             if (addTime)
             {

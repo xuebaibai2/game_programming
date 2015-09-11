@@ -102,7 +102,6 @@ namespace Ass1
             }
             MovingToTarget(elapsedFrameTime);
 
-            turretBone.Transform *= Matrix.CreateRotationY(MathHelper.PiOver4 / 20);
             //leftBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
             //rightBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
 
@@ -137,8 +136,7 @@ namespace Ass1
                     currentSpeed = maxSpeed;
 
                 //steering behavior of the enemy tank
-                Steering(elapsedFrameTime);
-                RotateTank(turnedAngle);
+                
             }
             else
             {
@@ -153,12 +151,11 @@ namespace Ass1
                     currentSpeed = 0;
 
                 //steering behavior of the enemy tank
-                //update 9/5
-                Steering(elapsedFrameTime);
-                RotateTank(turnedAngle);
 
                 isMoving = false;
             }
+            Steering(elapsedFrameTime);
+            RotateTank(turnedAngle);
         }
 
         private void LimitInBoundary()

@@ -448,3 +448,4 @@ C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Shar
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Image\gameover.png

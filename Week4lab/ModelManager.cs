@@ -68,25 +68,19 @@ namespace Ass1
             AddNPCTank(StaticValue.TOTAL_NPC_TANK, playerTank); // add enemy tanks
             
 
-            Cube RockModel = new Cube(
-                Game.Content.Load<Model>(@"Models/stone"),
-                new Vector3(0, 0, 0));
-            npcModels.Add(RockModel);
-
-            //steven 9-11
-            modelsObstacleFirm.Add(RockModel);
+            
             putBoundary();
 
             models.Add(new Ground(
                 Game.Content.Load<Model>(@"Ground/Ground")));
-            //models.Add(new SkyBox(
-            //    Game.Content.Load<Model>(@"Skybox/skybox")));
+            
             //models.Add(new Pokeball(
             //    Game.Content.Load<Model>(@"Pokeball/Pokeball"),
             //    ((Game1)Game).GraphicsDevice,
             //    ((Game1)Game).camera));
             models.Add(playerTank);
-
+            models.Add(new SkyBox(
+                Game.Content.Load<Model>(@"Skybox/skybox")));
             base.LoadContent();
         }
 

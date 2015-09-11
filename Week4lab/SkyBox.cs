@@ -30,11 +30,11 @@ namespace Ass1
         {
             return Matrix.CreateScale(2000f);
         }
-        //protected override Matrix GetTranslation(Camera camera)
-        //{
-        //    float positionX = camera.cameraPosition.X;
-        //    float positionZ = camera.cameraPosition.Z;
-        //    return Matrix.CreateTranslation(positionX, 0, positionZ);
-        //}
+        protected override Matrix GetTranslation(Camera camera)
+        {
+            float positionX = camera.cameraPosition.X;
+            float positionZ = camera.cameraPosition.Z;
+            return Matrix.CreateTranslation(positionX, 0, positionZ);
+        }
     }
 }

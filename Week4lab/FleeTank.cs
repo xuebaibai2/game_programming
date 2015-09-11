@@ -31,7 +31,7 @@ namespace Ass1
         //update
         private int mass = 10;
 
-        private float fleeDistance = 800;
+        private float fleeDistance = 500;
         private float boundary = 1000f;
 
         private double rotationSpeed = MathHelper.PiOver4 / 200;
@@ -42,7 +42,8 @@ namespace Ass1
         private float scaleRatio = 0.05f;
 
         private bool isMoving;
-
+        //9-11
+        private bool isPatrolling;
         private Tank targetTank;
 
         public FleeTank(Model model, GraphicsDevice device, Camera camera, Vector3 position, int tankID) : base(model)
@@ -54,6 +55,10 @@ namespace Ass1
             currentVelocity = Vector3.Normalize(new Vector3(0, 0, 1));  //enemy tank is facing vector3(0,0,1) when it spawn, this is initial velocity
             turretBone = model.Bones["turret_geo"];
             backWheelBone = model.Bones["r_back_wheel_geo"];
+
+            //9-11 patrol
+            RandomPatrolPoint();
+
             translation = Matrix.CreateTranslation(position);
         }
 
@@ -61,26 +66,51 @@ namespace Ass1
         {
             targetTank = playerTank;
         }
+
+        //9-11 patrol
+        public void RandomPatrolPoint()
+        {
+            Random ran = new Random();
+            int x = ran.Next(-1000, 1000);
+            int z = ran.Next(-1000, 1000);
+            targetPosition = new Vector3(x, 0, z);
+        }
         public override void Update(GameTime gameTime)
         {
             int elapsedFrameTime = gameTime.ElapsedGameTime.Milliseconds;
-            double turnedAngle = rotationSpeed * elapsedFrameTime;
 
-            targetPosition = targetTank.position;
-            orintation = position - targetPosition;   //opposite direction of the target
+            //9-11 patrol
+            float distance = (targetTank.position - position).Length();
+            if (distance < fleeDistance)
+            {
+                isPatrolling = false;
+                targetPosition = targetTank.position;
+                orintation = position - targetPosition;   //opposite direction of the target 
+            }
+            else
+            {
+                isPatrolling = true;
+            }
+            MovingToTarget(elapsedFrameTime);
+            base.Update(gameTime);
+        }
+
+        private void MovingToTarget(int elapsedFrameTime)
+        {
+            double turnedAngle = rotationSpeed * elapsedFrameTime;
+            //orintation = position - targetPosition;   //opposite direction of the target
             desiredVelocity = Vector3.Normalize(orintation) * maxSpeed;
 
             orintationAngle = Math.Atan2(orintation.X, orintation.Z);
-            
+
             //update 9/5
-            if(currentVelocity.Length()>1)
+            if (currentVelocity.Length() > 1)
                 currentVelocity.Normalize();
 
             currentVelocity *= (float)currentSpeed;
-            float distance = (targetPosition - position).Length();
 
             //Flee tank will flee opposite way of player if player is in flee distance range
-            if (distance < fleeDistance)
+            if ((targetPosition - position).Length() < fleeDistance)
             {
                 isMoving = true;
 
@@ -102,7 +132,6 @@ namespace Ass1
             else
             {
                 //smoothly slow down, acceleration here is also brake force
-
                 //update 9/5
                 if (Math.Abs(currentSpeed) < minStopSpeed)
                     currentSpeed = 0;
@@ -120,9 +149,6 @@ namespace Ass1
 
                 isMoving = false;
             }
-            turretBone.Transform *= Matrix.CreateRotationY(MathHelper.PiOver4 / 20);
-
-            base.Update(gameTime);
         }
 
         private void LimitInBoundary()

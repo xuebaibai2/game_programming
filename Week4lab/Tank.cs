@@ -183,8 +183,8 @@ namespace Ass1
             //rightBackWheelBone.Transform = Matrix.CreateRotationX(MathHelper.PiOver4 / 20) * rightBackWheelTransform;
             //leftFrontWheelBone.Transform = Matrix.CreateRotationX(MathHelper.PiOver4 / 20) * leftFrontWheelTransform;
             //rightFrontWheelBone.Transform = Matrix.CreateRotationX(MathHelper.PiOver4 / 20) * rightFrontWheelTransform;
-            
 
+            turretBone.Transform *= Matrix.CreateRotationY(MathHelper.PiOver4 / 50);
             base.Update(gameTime);
         }
 
