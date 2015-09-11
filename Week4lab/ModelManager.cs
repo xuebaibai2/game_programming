@@ -12,24 +12,19 @@ namespace Ass1
     {
         public List<BasicModel> models = new List<BasicModel>();
         public List<BasicModel> shots = new List<BasicModel>();
-
-        //steven
+        
         List<BasicModel> modelsObstacle = new List<BasicModel>();
         List<BasicModel> modelsObstacleFirm = new List<BasicModel>();
-
-        //updated code
+        
         public List<BasicModel> npcModels = new List<BasicModel>();
         float shotMinZ = 5000;
         float shotMinX = 5000;
         Vector3 relativePosition = new Vector3(0.5f, 0, 0.5f);
         Vector3 collisionDistance;
-
-        //steven
+        
         BasicModel tankModel;
-
-        //updated code
+        
         int shotDelay = 300;
-        //9_11
         Random rndEnemyShotDelay;
 
         int enemyShotDelay = 5000;
@@ -38,7 +33,6 @@ namespace Ass1
         Random rndPosition;
         int xSpawn;
         int zSpawn;
-        //9_11
         Random rndEnemyAddShot;
 
         public ModelManager(Game game)
@@ -50,7 +44,6 @@ namespace Ass1
         public override void Initialize()
         {
             rndPosition = new Random();
-            //9_11
             rndEnemyShotDelay = new Random();
             rndEnemyAddShot = new Random();
             base.Initialize();
@@ -96,7 +89,6 @@ namespace Ass1
         {
             foreach (BasicModel model in models)
             {
-                //steven
                 //if (!Collide())
                 //{
                 //    Console.WriteLine("no collision~~~~");
@@ -118,8 +110,7 @@ namespace Ass1
                 shot.Update(gameTime);
             }
             UpdateShots(gameTime);
-
-            //updated code
+            
             FireShots(gameTime);
             EnemyFireShots(gameTime);
             base.Update(gameTime);
@@ -144,8 +135,7 @@ namespace Ass1
                 rock.Draw(((Game1)Game).device,
                    ((Game1)Game).camera);
             }
-
-            //steven
+            
             foreach (BasicModel model in modelsObstacle)
             {
                 model.Draw(((Game1)Game).device, ((Game1)Game).camera);
@@ -168,7 +158,6 @@ namespace Ass1
                 ((Game1)Game).camera,
                 RocketType.PLAYER_ROCKET));
         }
-        //updated code
         public void AddEnemyShot(Vector3 position, Vector3 direction)
         {
             shots.Add(new Rocket
@@ -223,7 +212,6 @@ namespace Ass1
                             }
                         } 
                     }
-                    //9_11
                     if (shots[i].getRocketType() == RocketType.ENEMY_ROCKET)
                     {
                         if (shots[i].CollidesWith(models[1].model, models[1].Getworld()
@@ -269,7 +257,6 @@ namespace Ass1
                             npcModels[i].GetTankDirection());
                     }
                 }
-                //9_11
                 enemyShotCountdown = rndEnemyShotDelay.Next(3000, 7000);
             }
             else
@@ -293,8 +280,7 @@ namespace Ass1
                 npcModels.Add(enemyTank);
             }
         }
-
-        //steven
+        
         protected bool Collide()
         {
             Vector3 tankPosition = tankModel.GetTankPosition();
@@ -312,7 +298,6 @@ namespace Ass1
                 {
                     modelsObstacle.Remove(modelsObstacle[i]);
                 }
-
                 //if (modelsObstacle[i].CollidesWith(tankModel.model, tankModel.Getworld()))
                 //{
                 //    modelsObstacle.Remove(modelsObstacle[i]);
@@ -332,8 +317,6 @@ namespace Ass1
             }
             return false;
         }
-
-        //steven
         public void stopPlayer()
         {
             //tankModel.WheelRotationValue = 0f;
