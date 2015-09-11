@@ -79,10 +79,6 @@ namespace Ass1
             targetPosition = new Vector3(x, 0, z);
         }
 
-        public void Patrol()
-        {
-
-        }
         public override void Update(GameTime gameTime)
         {
             int elapsedFrameTime = gameTime.ElapsedGameTime.Milliseconds;
