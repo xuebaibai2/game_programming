@@ -1,0 +1,74 @@
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\obj\x86\Debug\Week5lab.csprojResolveAssemblyReference.cache
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\Users\Zack Wang\Documents\Visual Studio 2015\Projects\Week5_lab\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\ass1\Week5_lab\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\ass1\Week5_lab\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\ass1\Week5_lab\Week4lab\obj\x86\Debug\Week5lab.csprojResolveAssemblyReference.cache

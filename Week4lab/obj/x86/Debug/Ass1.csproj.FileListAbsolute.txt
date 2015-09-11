@@ -1,0 +1,358 @@
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Models\Rocket.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Models\stone.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\ass1\Week5_lab\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\ass1\Week5_lab\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\stone.xnb
+C:\ass1\Week5_lab\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone.xnb
+C:\ass1\Week5_lab\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Rocket.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\stone.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\stone.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Fonts\Arial.xnb
+C:\VisualStudio\GameDev\Ass1\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Logo.png
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.exe
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.pdb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Logo.png
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Rocket.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\stone.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\stone.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Fonts\Arial.xnb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.exe
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.pdb
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+J:\Game Programming\Ass1_v2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Logo.png
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Rocket.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\stone.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\stone.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Fonts\Arial.xnb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\ass1\Ass1_v2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Logo.png
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Rocket.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\stone.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\stone.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Fonts\Arial.xnb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\ass1\Ass1_v2_9_2\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Logo.png
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Rocket.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\stone.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\stone.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Fonts\Arial.xnb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\ass1\Ass1_v2_9_4_inProcess\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Logo.png
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Rocket.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\stone.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\stone.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Fonts\Arial.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Audio\track.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Image\bgIMG.jpg
+C:\ass1\Ass1_v2_9_5_new_tank_classes\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Image\menu_button.png
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Week4lab.pdb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Image\bgIMG.jpg
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Image\menu_button.png
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Logo.png
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_front_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_left_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_right_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\clear_top_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Skybox\skybox.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\Ground.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Ground\sanddf_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Pokeball\Pokeball.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Rocket.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\stone.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\stone.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Fonts\Arial.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Audio\track.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.exe
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\Week4lab.pdb
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.dll
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\MonoGame.Framework.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XAudio2.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D11.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.DXGI.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct2D1.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Week4lab.pdb
