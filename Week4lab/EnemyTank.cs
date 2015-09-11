@@ -31,8 +31,8 @@ namespace Ass1
 
         private float minStopSpeed = 0.1f;
 
-        float chaseMinDistance = 300;
-        float chaseMaxDistance = 700;
+        float chaseMinDistance = 200;
+        float chaseMaxDistance = 500;
         float boundary = 1000f;
 
         private double rotationSpeed = MathHelper.PiOver4/200;
@@ -59,7 +59,7 @@ namespace Ass1
             leftBackWheelBone = model.Bones["l_back_wheel_geo"];
             rightBackWheelBone = model.Bones["r_back_wheel_geo"];
 
-            //9-11
+            //9-11 patrol
             RandomPatrolPoint();
 
             translation = Matrix.CreateTranslation(position);
@@ -70,6 +70,7 @@ namespace Ass1
             this.targetTank = playerTank;
         }
 
+        //9-11 patrol
         public void RandomPatrolPoint()
         {
             Random ran = new Random();
@@ -85,14 +86,12 @@ namespace Ass1
         public override void Update(GameTime gameTime)
         {
             int elapsedFrameTime = gameTime.ElapsedGameTime.Milliseconds;
-            double turnedAngle = rotationSpeed * elapsedFrameTime;
 
-            //9-11
+            //9-11 patrol
             float distance = (targetTank.position - position).Length();
             if (distance > chaseMaxDistance)
             {
                 isPatrolling = true;
-                
             }
             else
             {
@@ -100,8 +99,24 @@ namespace Ass1
                 targetPosition = targetTank.position;
             }
 
-            //targetPosition = targetTank.position;
+            //9-11 patrol
+            if(currentSpeed == 0 && isPatrolling)
+            {
+                RandomPatrolPoint();
+            }
+            MovingToTarget(elapsedFrameTime);
 
+            turretBone.Transform *= Matrix.CreateRotationY(MathHelper.PiOver4 / 20);
+            //leftBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
+            //rightBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
+
+            base.Update(gameTime);
+        }
+
+        //9-11 patrol
+        private void MovingToTarget(int elapsedFrameTime)
+        {
+            double turnedAngle = rotationSpeed * elapsedFrameTime;
             orintation = targetPosition - position;
             desiredVelocity = Vector3.Normalize(orintation) * maxSpeed;
             orintationAngle = Math.Atan2(orintation.X, orintation.Z);
@@ -112,7 +127,7 @@ namespace Ass1
             currentVelocity *= (float)currentSpeed;
 
             //the enemy tank will chase player and keep 100 distance
-            
+
             if ((targetPosition - position).Length() > chaseMinDistance)
             {
                 isMoving = true;
@@ -148,13 +163,7 @@ namespace Ass1
 
                 isMoving = false;
             }
-            turretBone.Transform *= Matrix.CreateRotationY(MathHelper.PiOver4 / 20);
-            //leftBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
-            //rightBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
-
-            base.Update(gameTime);
         }
-
 
         private void LimitInBoundary()
         {
