@@ -31,7 +31,7 @@ namespace Ass1
         //update
         private int mass = 10;
 
-        private float fleeDistance = 500;
+        private float fleeDistance = 300;
         private float boundary = 1000f;
 
         private double rotationSpeed = MathHelper.PiOver4 / 200;

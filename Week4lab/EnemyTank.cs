@@ -31,7 +31,7 @@ namespace Ass1
 
         private float minStopSpeed = 0.1f;
 
-        float chaseMinDistance = 200;
+        float chaseMinDistance = 100;
         float chaseMaxDistance = 500;
         float boundary = 1000f;
 

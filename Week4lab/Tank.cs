@@ -30,7 +30,7 @@ namespace Ass1
         //update 9/4
         private double rotationSpeed = 0.005;
         private float currentMoveSpeed = 0;
-        private float maxMoveSpeed = 0.5f;
+        private float maxMoveSpeed = 0.4f;
         private float tankAcceleration = 0.01f;
         private float minStopSpeed = 0.1f;
 
