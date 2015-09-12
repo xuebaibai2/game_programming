@@ -81,7 +81,7 @@ namespace Ass1
             soundFX = Content.Load<SoundEffect>(@"Audio/track");
             music = soundFX.CreateInstance();
             music.IsLooped = true;
-            music.Play();
+            //music.Play();
 
             // TODO: use this.Content to load your game content here
         }

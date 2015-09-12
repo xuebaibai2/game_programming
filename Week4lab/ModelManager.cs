@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Audio;
 
 namespace Ass1
 {
@@ -41,6 +42,10 @@ namespace Ass1
         const float diff = 30f;
         const float modelDiff = 60f;
         Tank playerTank;
+
+        private SoundEffect soundFX;
+        private SoundEffectInstance fireSound;
+
 
         public ModelManager(Game game)
             : base(game)
@@ -81,6 +86,9 @@ namespace Ass1
             models.Add(playerTank);
             models.Add(new SkyBox(
                 Game.Content.Load<Model>(@"Skybox/skybox")));
+            soundFX = Game.Content.Load<SoundEffect>(@"Audio/track");
+            fireSound = soundFX.CreateInstance();
+            fireSound.IsLooped = false;
             base.LoadContent();
         }
 
@@ -259,6 +267,7 @@ namespace Ass1
                     // Add a shot to the model manager            
                     AddShot(models[1].GetTankPosition() + new Vector3(0, 10, 0),
                          models[1].GetTankDirection());
+                    fireSound.Play();
                     // Reset the shot countdown            
                     shotCountdown = shotDelay;
                 }

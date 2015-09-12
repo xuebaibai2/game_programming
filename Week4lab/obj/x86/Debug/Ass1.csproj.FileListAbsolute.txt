@@ -354,8 +354,6 @@ C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
 C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\ass1\Ass1_9_11\Ass1_Zack&cayden\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
-C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Week4lab.exe
-C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Week4lab.pdb
 C:\Users\Cayden\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Week4lab.exe
 C:\Users\Cayden\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Week4lab.pdb
 C:\Users\Cayden\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Image\bgIMG.jpg
@@ -404,6 +402,7 @@ C:\Users\Cayden\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\SharpDX
 C:\Users\Cayden\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\Cayden\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Image\bgIMG.jpg
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Image\gameover.png
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Image\menu_button.png
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Logo.png
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Skybox\clear_back_0.xnb
@@ -424,6 +423,8 @@ C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Cont
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Audio\track.xnb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Audio\wheelsound.xnb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Week4lab.exe
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Week4lab.pdb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\MonoGame.Framework.dll
@@ -446,6 +447,6 @@ C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Shar
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\SharpDX.XInput.xml
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Week4lab.exe
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Week4lab.pdb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
-C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Image\gameover.png
-C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
