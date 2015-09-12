@@ -422,7 +422,6 @@ C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Cont
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Models\Stone_Sandstone_0.xnb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Fonts\Arial.xnb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Audio\track.xnb
-C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Tank\tank.xnb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Tank\turret_alt_diff_tex_0.xnb
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Week4lab.exe
@@ -449,3 +448,4 @@ C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Shar
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\obj\x86\Debug\Ass1.csprojResolveAssemblyReference.cache
 C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Image\gameover.png
+C:\Users\Zack Wang\Source\Repos\game-programming\Week4lab\bin\Windows\Debug\Content\Tank\engine_diff_tex_0.xnb
