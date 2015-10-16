@@ -43,7 +43,6 @@ namespace Ass1
         private float scaleRatio = 0.05f;
 
         private bool isMoving;
-        //9-11
         private bool isPatrolling;
         private Tank targetTank;
 
@@ -51,7 +50,7 @@ namespace Ass1
         {
             npcTankID = tankID;
             mousePick = new MousePick(device, camera);
-            //this.position = new Vector3(500, 0, 200);         //enemy tank's spawn position
+            //this.position = new Vector3(500, 0, 200);         
             this.position = position;
             currentVelocity = Vector3.Normalize(new Vector3(0, 0, 1));  //enemy tank is facing vector3(0,0,1) when it spawn, this is initial velocity
             turretBone = model.Bones["turret_geo"];
