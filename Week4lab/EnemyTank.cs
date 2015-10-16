@@ -101,9 +101,6 @@ namespace Ass1
             }
             MovingToTarget(elapsedFrameTime);
 
-            //leftBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
-            //rightBackWheelBone.Transform *= Matrix.CreateRotationX(MathHelper.PiOver4 / 20);
-
             base.Update(gameTime);
         }
 
