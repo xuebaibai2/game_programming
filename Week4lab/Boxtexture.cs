@@ -24,9 +24,13 @@ namespace Ass1
         {
             base.Draw(device, camera);
         }
-
+        /// <summary>
+        /// get world interface
+        /// </summary>
+        /// <returns></returns>
         public override Matrix Getworld()
         {
+
             return scale * rotation * translation;
 
         }
